@@ -1,0 +1,86 @@
+﻿  Compiling CUDA source file gpu_convolution.cu...
+  
+  C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64" -x cu   -IC:\opencv\opencv\build\include -IC:\opencv\opencv\build\include\opencv2 -IC:\opencv\opencv\build\include -IC:\opencv\opencv\build\include\opencv2 -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\x64\Debug\gpu_convolution.cu.obj" "C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\gpu_convolution.cu" 
+C:\opencv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\opencv\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+  gpu_convolution.cu
+  tmpxft_000007f4_00000000-7_gpu_convolution.cudafe1.cpp
+  cpu_convolution.cpp
+  kernels.cpp
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         with
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         [
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:             _Ty=float
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         ]
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         with
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         [
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:             _Ty=float
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         ]
+  main.cpp
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         with
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         [
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:             _Ty=float
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(38,42): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         with
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         [
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:             _Ty=float
+C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\Multiprocessor_Convolution_Cuda\kernels.cpp(47,54): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  
+  Generating Code...
+  Multiprocessor_Convolution_Cuda.vcxproj -> C:\Users\colla\OneDrive\Escritorio\Universidad\8vo Ciclo\Computacion_Paralela\cuda_practicas\Multiprocessor_Convolution_Cuda\x64\Debug\Multiprocessor_Convolution_Cuda.exe
