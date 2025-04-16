@@ -5,8 +5,8 @@
 #include <opencv2/opencv.hpp>
 
 // CPU
-void applyFilterCPU(const cv::Mat& input, cv::Mat& output, const std::vector<float>& kernel, int kernelSize);
-void applyFilterColorCPU(const cv::Mat& input, cv::Mat& output, const std::vector<float>& kernel, int kernelSize);
+void applyFilterColorCPUParallel(const cv::Mat& input, cv::Mat& output, const std::vector<float>& kernel, int kernelSize);
+void applyFilterCPUParallel(const cv::Mat& input, cv::Mat& output, const std::vector<float>& kernel, int kernelSize);
 
 // GPU 
 void applyFilterGPU(const cv::Mat& input, cv::Mat& output, const std::vector<float>& kernel, int kernelSize);
